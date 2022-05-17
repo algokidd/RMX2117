@@ -23,13 +23,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root) \
-	$(LOCAL_PATH)/prebuilt/dtb:dtb.img
+	$(LOCAL_PATH)/prebuilt/dtb.img
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := RMX2117
 PRODUCT_NAME := twrp_RMX2117
 PRODUCT_BRAND := RealMe
-PRODUCT_MODEL := Q2 Pro 5G
+PRODUCT_MODEL := Narzo 30 Pro 5G
 PRODUCT_MANUFACTURER := RealMe
 
 # Dynamic
